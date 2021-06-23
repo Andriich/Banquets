@@ -137,6 +137,24 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'type' => [
+            'in' => 'The :attribute field must be one of (:values).'
+        ],
+        'name' => [
+            'regex' => 'The :attribute field must start and end with a non-space character.'
+        ],
+        'description' => [
+            'regex' => 'The :attribute field must start and end with a non-space character.'
+        ],
+        'price' => [
+            'regex' => 'The :attribute field must start and end with a non-space character.'
+        ],
+        'duration' => [
+            'regex' => 'The :attribute field must start and end with a non-space character.'
+        ],
+        'weight' => [
+            'regex' => 'The :attribute field must start and end with a non-space character.'
+        ],
     ],
 
     /*
